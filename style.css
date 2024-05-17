@@ -18,3 +18,23 @@
     margin: 0px;
 }
 
+#change {
+    border-radius: 20px;
+    margin-top: 14px;
+    border: 1px solid;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#keliling-ctn {
+    color: blue;
+}
+
+.keliling-ctn:hover {
+    background-color: #5d45a0; /* Warna latar belakang saat digulirkan */
+}
+
+.keliling-ctn:active {
+    background-color: #463e8e; /* Warna latar belakang saat ditekan */
+}
