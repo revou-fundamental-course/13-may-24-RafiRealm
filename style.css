@@ -1,0 +1,20 @@
+#kepala {
+    text-align: center;
+}
+
+#kepala h1 {
+    margin-bottom: 2px;
+}
+.kata p {
+    margin-bottom: 14px;
+    margin-top: 6px;
+}
+
+.konten-luas h2 {
+    text-align: center;
+    background-color: skyblue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
