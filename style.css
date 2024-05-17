@@ -10,7 +10,7 @@
     margin-top: 6px;
 }
 
-.konten-luas h2 {
+.segitiga h2 {
     text-align: center;
     background-color: skyblue;
     padding-top: 8px;
@@ -19,22 +19,24 @@
 }
 
 #change {
+    color: blue;
     border-radius: 20px;
-    margin-top: 14px;
+    margin-top: 20px;
     border: 1px solid;
     width: 100%;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-#keliling-ctn {
-    color: blue;
+#change:hover {
+    background-color: navy;
+    color: white;
+    size: 100%;
 }
 
-.keliling-ctn:hover {
-    background-color: #5d45a0; /* Warna latar belakang saat digulirkan */
-}
-
-.keliling-ctn:active {
-    background-color: #463e8e; /* Warna latar belakang saat ditekan */
+.luas {
+    text-align: center;
+    background-color: skyblue;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
