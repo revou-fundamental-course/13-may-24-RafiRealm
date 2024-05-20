@@ -23,48 +23,51 @@
             </div>
             <div>
                 <button onclick="switchPage()" id="change">
-                    <h4><u>Ganti Keliling Segitiga</u></h4>
+                    <h4><u>Ganti Luas Segitiga</u></h4>
                 </button>
             </div>
         </section>
         <section id="main-ctn">
             <div class="konten-luas">
-                <h2 class="luas">Luas Segitiga</h2>
+                <h2 class="luas">Keliling Segitiga</h2>
             </div>
             <div class="img-ctn">
                 <img src="image\gambar.png" alt="gambar segitiga" class="gambar">
             </div>
             <div class="rms">
                 <p>
-                    <b>Rumus luas segitiga:</b>
+                    <b>Rumus Keliling segitiga:</b>
                 </p>
                 <br>
-                <p class="rms-ctn">L= 1/2 x a x t</p>
+                <p class="rms-ctn">K = a + b + c</p>
             </div>
             <div class="info">
                 <button>Lihat Rumus</button>
             </div>
             <hr>
             <div class="hitung">
-                <h2>Hitung Luas Segitiga</h2>
+                <h2>Hitung Keliling Segitiga</h2>
             </div>
             <div>
                 <form>
                     <div>
-                        <label for="alas" class="label"><input type="text" id="alas" placeholder="Nilai Alas"></label>
+                        <label for="sisi1" class="label"><input type="text" id="sisi1" placeholder="Nilai Sisi A"></label>
                     </div>
                     <div>
-                        <label type="button" for="tinggi" class="label"><input type="text" id="tinggi" placeholder="Nilai tinggi"></label>
+                        <label for="sisi2" class="label"><input type="text" id="sisi2" placeholder="Nilai Sisi B"></label>
+                    </div>
+                    <div>
+                        <label for="sisi3" class="label"><input type="text" id="sisi3" placeholder="Nilai Sisi c"></label>
                     </div>
                     <div class="last-text">
-                        <p>L = a x t x 1/2</p>
+                        <p>K = a + b + c</p>
                     </div>
                     <div class="last-text">
-                        <p id="hasil"></p>
+                        <p id="hasilK"></p>
                     </div>
                     <div class="last-btn">
                         <div>
-                            <button type="button" onclick="hitungLuas()">Hitung</button>
+                            <button type="button" onclick="hitungKeliling()">Hitung</button>
                         </div>
                         <div>
                             <button>Reset</button>

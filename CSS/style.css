@@ -1,0 +1,120 @@
+#kepala {
+    text-align: center;
+}
+
+#kepala h1 {
+    margin-bottom: 2px;
+    font-size: 48px;
+}
+.kata p {
+    margin-bottom: 14px;
+    margin-top: 6px;
+    font-size: 24px;
+}
+
+.segitiga h2 {
+    font-size: 48px;
+    text-align: center;
+    background-color: skyblue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+#change {
+    color: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid;
+    width: 100%;
+    cursor: pointer;
+}
+
+#change:hover {
+    background-color: navy;
+    color: white;
+    size: 100%;
+}
+
+.luas {
+    text-align: center;
+    font-size: 48px;
+    background-color: skyblue;
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#main-ctn {
+    border: 1px solid;
+}
+
+.img-ctn {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.gambar {
+    max-width: 100%;
+    height: auto;
+}
+
+.rms p {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.rms-ctn {
+    text-align: center;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.hitung {
+    text-align: center;
+    font-size: 48px;
+}
+
+.label {
+    position: relative;
+}
+
+.label input {
+    width: 95%;
+    height: 100px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    font-size: 24px;    
+}
+
+.last-text p {
+    margin-left: 10px;
+}
+
+.last-btn {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.last-btn button {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.last-btn button:hover {
+    color: white;
+    background-color: navy;
+}
