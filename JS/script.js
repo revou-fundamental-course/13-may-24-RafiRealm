@@ -1,12 +1,12 @@
 function switchPage() {
-    var currentPage = window.location.href; // Mendapatkan URL halaman saat ini
+    var currentPage = window.location.href; 
     if (currentPage.includes("index2.html")) {
-        // Jika URL saat ini adalah "halaman_baru.html", kembali ke halaman utama
+    
         window.location.href = "index.html";
     } 
     
     else {
-        // Jika tidak, beralih ke halaman baru
+        
         window.location.href = "index2.html";
     }
 }
